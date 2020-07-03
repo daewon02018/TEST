@@ -1,0 +1,40 @@
+﻿빌드 시작: 2019-05-16 오후 1:07:32
+     1>2 노드의 "D:\Tools\01.QAC\010.SampleCode\Tetris_Oriz\Tetris.vcxproj" 프로젝트(rebuild 대상)입니다.
+     1>_PrepareForClean:
+         ".\Debug\Tetris.lastbuildstate" 파일을 삭제하고 있습니다.
+       InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 ".\Debug\Tetris.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt Tetris.cpp
+         Tetris.cpp
+     1>d:\tools\01.qac\010.samplecode\tetris_oriz\tetris.cpp(725): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : 'strncpy' 선언을 참조하십시오.
+     1>d:\tools\01.qac\010.samplecode\tetris_oriz\tetris.cpp(803): warning C4146: 단항 빼기 연산자가 부호 없는 형식에 적용되었습니다. 결과는 역시 unsigned입니다.
+     1>d:\tools\01.qac\010.samplecode\tetris_oriz\tetris.cpp(64): warning C4789: 메모리 복사 대상이 너무 작습니다.
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _VC80_UPGRADE=0x0600 /l"0x0412" /nologo /fo".\Debug\Tetris.res" Tetris.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\Tetris.exe.embed.manifest.res" .\Debug\Tetris_manifest.rc 
+       Link:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\Tetris.exe" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Debug\Tetris.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Tools\01.QAC\010.SampleCode\Tetris_Oriz\Debug\Tetris.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\Tetris.lib" /MACHINE:X86 .\Debug\Tetris.res
+         .\Debug\Tetris.exe.embed.manifest.res
+         .\Debug\Tetris.obj
+       Manifest:
+         ".\Debug\Tetris.exe.embed.manifest" 파일을 삭제하고 있습니다.
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:".\Debug\Tetris.exe.embed.manifest" /manifest .\Debug\Tetris.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\Tetris.exe.embed.manifest.res" .\Debug\Tetris_manifest.rc 
+       LinkEmbedManifest:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\Tetris.exe" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Debug\Tetris.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Tools\01.QAC\010.SampleCode\Tetris_Oriz\Debug\Tetris.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\Tetris.lib" /MACHINE:X86 .\Debug\Tetris.res
+         .\Debug\Tetris.exe.embed.manifest.res
+         .\Debug\Tetris.obj
+         Tetris.vcxproj -> D:\Tools\01.QAC\010.SampleCode\Tetris_Oriz\.\Debug\Tetris.exe
+       BscMake:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o".\Debug\Tetris.bsc" .\Debug\Tetris.sbr
+       FinalizeBuildStatus:
+         ".\Debug\Tetris.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         ".\Debug\Tetris.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"D:\Tools\01.QAC\010.SampleCode\Tetris_Oriz\Tetris.vcxproj" 프로젝트를 빌드했습니다(rebuild 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:14.34
